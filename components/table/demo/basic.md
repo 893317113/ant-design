@@ -17,8 +17,8 @@ Simple table with actions.
 import { Table, Divider, Tag } from 'antd';
 
 const columns = [{
-  title: 'Name',
-  dataIndex: 'name',
+  title: '机器码',
+  dataIndex: '机器码',
   key: 'name',
   render: text => <a href="javascript:;">{text}</a>,
 }, {
